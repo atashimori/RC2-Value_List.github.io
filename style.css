@@ -1,0 +1,87 @@
+
+
+body{background-color: black; text-align: center; align-items: center;}
+
+:root {
+  color-scheme: dark;
+}
+body *{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+display:inline-block;
+text-decoration: none;
+}
+
+button {
+background-color:#242529;
+color:white;
+border-radius:999px;
+margin:5px 10px;
+padding: 1cap 2cap;
+border: 0cap;
+display:flex;
+justify-content: center;
+position: relative;
+align-items: center;
+}
+
+button::after{
+background-image: linear-gradient(to top right, blue,#3d30c9,#760dff,purple);
+border-radius: 999px;
+content: '';
+position: absolute;
+height:107%;
+width:103%;
+z-index: -1;
+}
+
+button:hover, .home{
+z-index: 0;
+}
+
+.navbar, .navbar a{
+all: unset;
+width:100%;
+border-collapse: collapse;
+}
+.hmain{width:90%}
+table{
+background-color: rgb(50,50,50,0.5);
+padding:5px;
+display:inline-block;
+border-radius: 10px;
+border:0cap
+}
+
+td, th{
+border:0cap;
+width:120px;
+text-align:center;
+}
+
+
+.f{
+background-color: rgb(100,100,100,0.5);
+}
+
+.name{
+text-align: left;
+}
+
+body *{
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header{
+color:white;
+display:inline-block;
+}
+
+.headar{
+color: rgb(0,0,0,0)!important;
+text-align: right;
+align-items: right;
+font-size: 5px!important;
+}

@@ -110,7 +110,7 @@ font-size: 5px!important;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   body {
     background-size: cover;
     background-position: center;

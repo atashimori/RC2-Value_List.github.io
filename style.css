@@ -1,13 +1,26 @@
-body{background-color: black; text-align: center; align-items: center; margin: 0; padding: 0; box-sizing: border-box;}
+body {
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 :root {
   color-scheme: dark;
 }
-body *{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
-display:inline-block;
+
+a {
+  display: inline-block;
 text-decoration: none;
 }
 
@@ -45,13 +58,18 @@ all: unset;
 width:100%;
 border-collapse: collapse;
 }
+
 .hmain{width:90%}
-table{
-background-color: rgb(50,50,50,0.5);
-padding:5px;
-display:block;
-border-radius: 10px;
-border:0cap
+
+table {
+  align-self: flex-start !important;
+  background-color: rgb(50,50,50,0.5);
+  padding: 5px;
+  display: block;
+  border-radius: 10px;
+  border: 0cap;
+  width: 600px;
+  margin: 0 auto;
 }
 
 td, th{
@@ -67,6 +85,7 @@ background-color: rgb(100,100,100,0.5);
 
 .name{
 text-align: left;
+width:200px;
 }
 
 body *{
@@ -92,8 +111,11 @@ font-size: 5px!important;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-
   }
-  table {width:100% !important}
-  td, th {width:auto !important}
+  table {
+    width: 100% !important;
+  }
+  td, th {
+    width: auto !important;
+  }
 }

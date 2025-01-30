@@ -91,6 +91,9 @@ font-size: 5px!important;
   body {
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
+
   }
-  table {width:100%}
+  table {width:100% !important}
+  td, th {width:auto !important}
 }
